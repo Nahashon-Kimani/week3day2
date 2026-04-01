@@ -1,1 +1,2 @@
-1. Where will these logs from buildspec.yml file appear?
+Q1. Where will these logs from buildspec.yml file appear?
+A:  These logs will be written to the CodeBuild logs in AWS CloudWatch. You can access them through the AWS Management Console under the CodeBuild service, or directly in CloudWatch Logs. Each build will have its own log stream where you can see the output of the build commands.
